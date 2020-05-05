@@ -1,2 +1,3 @@
 # FriendFinder
-Basically a Dating App
+Basically an App To Find Friends
+
