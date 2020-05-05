@@ -1,22 +1,130 @@
 module.exports = [
 	{
-		"name":"Ahmed",
-		"photo":"data:image/jpeg;base64,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",
-		"scores":[
-				5,
-				1,
-				4,
-				4
-			]
+	"name": "Ahmed",
+	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAq7AAAAJDAwYzI4NTQ4LWYwZWUtNGFkYS1hNTYwLTZjYzkwY2ViZDA3OA.jpg",
+	"scores": [
+	"5",
+	"1",
+	"4",
+	"4",
+	"5",
+	"1",
+	"2",
+	"5",
+	"4",
+	"1"
+	]
 	},
 	{
-		"name":"Gary",
-		"photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-		"scores":[
-				2,
-				5,
-				5,
-				2
-			]
+	"name": "Jacob Deming",
+	"photo": "https://pbs.twimg.com/profile_images/691785039043022849/oWsy8LNR.jpg",
+	"scores": [
+	"4",
+	"2",
+	"5",
+	"1",
+	"3",
+	"2",
+	"2",
+	"1",
+	"3",
+	"2"
+	]
+	},
+	{
+	"name": "Jeremiah Scanlon",
+	"photo": "https://avatars2.githubusercontent.com/u/8504998?v=3&s=460",
+	"scores": [
+	"5",
+	"2",
+	"2",
+	"2",
+	"4",
+	"1",
+	"3",
+	"2",
+	"5",
+	"5"
+	]
+	},
+	{
+	"name": "Louis T. Delia",
+	"photo": "https://pbs.twimg.com/profile_images/639214960049000449/lNCRC-ub.jpg",
+	"scores": [
+	"3",
+	"3",
+	"4",
+	"2",
+	"2",
+	"1",
+	"3",
+	"2",
+	"2",
+	"3"
+	]
+	},
+	{
+	"name": "Lou Ritter",
+	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkDAAAAJDhhZTI5NTk2LWQzZjUtNDJjZi1hMTM2LTQ3ZjNmYjE0YmY2NA.jpg",
+	"scores": [
+	"4",
+	"3",
+	"4",
+	"1",
+	"5",
+	"2",
+	"5",
+	"3",
+	"1",
+	"4"
+	]
+	},
+	{
+	"name": "Jordan Biason",
+	"photo": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAisAAAAJGUxYzc4YzA0LWQxMzUtNGI4NS04YTFiLTkwYzM0YTZkNzA2NA.jpg",
+	"scores": [
+	"4",
+	"4",
+	"2",
+	"3",
+	"2",
+	"2",
+	"3",
+	"2",
+	"4",
+	"5"
+	]
+	},
+	{
+	"name": "Sammy",
+	"photo": "https://www.soundslikenashville.com/wp-content/uploads/2020/04/Sam-Hunt-a-1585755816-2560x1564.jpg",
+	"scores": [
+	"2",
+	"4",
+	"3",
+	"3",
+	"3",
+	"2",
+	"2",
+	"5",
+	"2",
+	"2"
+	]
+	},
+	{
+	"name": "Oksana Miller",
+	"photo": "no",
+	"scores": [
+	"5",
+	"3",
+	"2",
+	"1",
+	"1",
+	"3",
+	"4",
+	"2",
+	"1",
+	"1"
+	]
 	}
 ];
